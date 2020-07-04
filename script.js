@@ -29,8 +29,8 @@ for(let i = 0; i < 9; i++)
     gameBoard.push(undefined);
 }
 
-let player1 = Player(prompt("Enter Player One's name", "Player One"), "x");
-let player2 = Player(prompt("Enter Player Two's name", "Player Two"), "o");
+let player1 = Player("Player One", "x");
+let player2 = Player("Player Two", "o");
 
 p1Wins.textContent = player1.name + ": 0 | ";
 p2Wins.textContent = " | " + player2.name + ": 0";
