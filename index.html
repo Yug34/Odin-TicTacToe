@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title>TicTacToe</title>
+</head>
+<body>
+    <header>
+        <h1>Tic-Tac-Toe</h1>
+        <a href="https://github.com/Yug34/">
+            <img id="githublink" src="images/github-mark.png" alt="link to the github repo">
+        </a>
+    </header>
+    <div id="gridContainer">
+        <table id='grid'>
+            <tr class="gridRow">
+                <td class="cell" id='btn1'>_</td>
+                <td class="cell" id='btn2'>_</td>
+                <td class="cell" id='btn3'>_</td>
+            </tr>
+            <tr class="gridRow">
+                <td class="cell" id='btn4'>_</td>
+                <td class="cell" id='btn5'>_</td>
+                <td class="cell" id='btn6'>_</td>
+            </tr>
+            <tr class="gridRow">
+                <td class="cell" id='btn7'>_</td>
+                <td class="cell" id='btn8'>_</td>
+                <td class="cell" id='btn9'>_</td>
+            </tr>
+        </table>
+    </div>
+    <button id="playAgainBtn">Play Again</button>
+
+    <div id="scoreCounter">
+        <p id="p1Wins"></p>
+        <p id="ties">Ties: 0</p>
+        <p id="p2Wins"></p>
+    </div>
+
+    <div id="historyText">Previous Games:</div>
+
+    <div id="previousGames">
+    </div>
+    <script src='script.js'></script>
+</body>
+</html>

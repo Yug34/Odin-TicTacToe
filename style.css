@@ -1,0 +1,155 @@
+html,body
+{
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+}
+
+header {
+    display: flex;
+    justify-content: center;
+    background: black;
+    margin-bottom: 20px;
+}
+
+header h1 {
+    font-family: 'Press Start 2P', cursive;
+    color: white;
+    text-align: center;
+}
+
+
+#githublink {
+    height: 60px;
+    width: 60px;
+    margin-top: 10px;
+    margin-left: 50px;
+}
+
+#scoreCounter {
+    font-family: 'Press Start 2P', cursive;
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    font-size: 15px;
+}
+
+#p1Wins {
+    white-space: nowrap;
+    display: flex;
+    flex-direction: row;
+    margin-left: auto;
+    color: #4caf50;
+}
+
+#ties {
+    white-space: nowrap;
+    display: flex;
+    flex-direction: row;
+    padding: 0 20px;
+}
+
+#p2Wins {
+    white-space: nowrap;
+    display: flex;
+    flex-direction: row;
+    margin-right: auto;
+    color: #f44336;
+}
+
+#gridContainer {
+
+}
+
+#grid {
+    margin: 0 auto;
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+}
+
+#btn1, #btn3, #btn5, #btn7, #btn9 {
+    background-color: #cccccc;
+}
+
+#btn1:hover, #btn3:hover, #btn5:hover, #btn7:hover, #btn9:hover {
+    background-color: #c0c0c0;
+}
+
+.gridRow {
+
+}
+
+.cell {
+    font-family: 'Press Start 2P', cursive;
+    height: 130px;
+    width: 130px;
+    text-align: center;
+    border: #515151 solid 1px;
+    background-color: #3d3d3d;
+    color: #f7f7f7;
+    font-size: 60px;
+    cursor: pointer;
+}
+
+.cell:hover {
+    background-color: #353535;
+}
+
+#historyText {
+    display: block;
+    margin: 10px auto;
+    text-align: center;
+    font-family: 'Press Start 2P', cursive;
+    font-size: 20px;
+}
+
+#playAgainBtn {
+    font-family: 'Press Start 2P', cursive;
+    display: block;
+    margin: 10px auto;
+    background-color: white;
+    border: 1px solid #3d3d3d;
+    color: black;
+    padding: 15px 32px;
+    text-align: center;
+    font-size: 16px;
+}
+
+#playAgainBtnActive {
+    font-family: 'Press Start 2P', cursive;
+    display: block;
+    margin: 10px auto;
+    background-color: #3d3d3d;
+    border: 1px solid #3d3d3d;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    font-size: 16px;
+}
+
+#previousGames {
+
+}
+
+.scoreTable {
+    border: 1px solid #dddddd;
+    border-collapse: collapse;
+    text-align: left;
+    margin: 15px auto;
+    padding: 8px;
+}
+
+.scoreRow {
+    border: 1px solid #dddddd;
+}
+
+.scoreElement {
+    font-family: 'Press Start 2P', cursive;
+    font-size: 10px;
+    text-align: center;
+    height: 50px;
+    width: 50px;
+    border: 1px solid #dddddd;
+}
