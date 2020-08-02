@@ -1,5 +1,5 @@
 # Odin-TicTacToe
 
-[**Link to the project**](http://stupidblogs.me/OdinTTT/)
+[**Link to the project**](http://stupidblogs.me/Odin-TicTacToe/)
 
-![Odin-TicTacToe](https://github.com/Yug34/Odin-TicTacToe/blob/master/odin-tictactoe.png)
+![odinTTT](https://github.com/Yug34/Odin-TicTacToe/blob/master/odin-tictactoe.png)
